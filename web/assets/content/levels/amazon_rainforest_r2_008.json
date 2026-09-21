@@ -1,0 +1,156 @@
+{
+  "levelId": "amazon_rainforest_r2_008",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r2",
+  "wordLengthBucket": 4,
+  "grid": {
+    "rows": 4,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "TOWN",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "TWO",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "NOW",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "WON",
+      "row": 2,
+      "col": 3,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "WONT",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    },
+    {
+      "letter": "W",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "NOT",
+    "NOWT",
+    "OWN",
+    "TON",
+    "TOW",
+    "WOT"
+  ]
+}

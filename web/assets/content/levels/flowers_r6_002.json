@@ -1,0 +1,197 @@
+{
+  "levelId": "flowers_r6_002",
+  "themeId": "flowers",
+  "roundId": "flowers_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 3,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "WRISTS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "SIR",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "WIT",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "WRIT",
+      "row": 2,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SIT",
+      "row": 0,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 7
+        },
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "ITS",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "I",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    },
+    {
+      "letter": "T",
+      "count": 1
+    },
+    {
+      "letter": "W",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "SIRS",
+    "SIS",
+    "SITS",
+    "SRI",
+    "STIR",
+    "STIRS",
+    "TIS",
+    "WIS",
+    "WISS",
+    "WIST",
+    "WITS",
+    "WRIST",
+    "WRITS"
+  ]
+}

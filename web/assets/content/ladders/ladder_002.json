@@ -1,0 +1,12 @@
+{
+  "ladderId": "ladder_002",
+  "themeId": "flowers",
+  "sequence": [
+    { "roundId": "flowers_r1", "wordLengthBucket": 3 },
+    { "roundId": "flowers_r2", "wordLengthBucket": 4 },
+    { "roundId": "flowers_r3", "wordLengthBucket": 5 },
+    { "roundId": "flowers_r4", "wordLengthBucket": 5 },
+    { "roundId": "flowers_r5", "wordLengthBucket": 6 },
+    { "roundId": "flowers_r6", "wordLengthBucket": 6 }
+  ]
+}

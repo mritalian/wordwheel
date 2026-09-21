@@ -1,0 +1,194 @@
+{
+  "levelId": "amazon_rainforest_r5_003",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 3,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "ASSURE",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "ASS",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "ERA",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SUE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "EAR",
+      "row": 2,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    },
+    {
+      "letter": "U",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ARE",
+    "ARES",
+    "ARS",
+    "ARSE",
+    "ARSES",
+    "EARS",
+    "EAU",
+    "ERAS",
+    "ERS",
+    "ESS",
+    "RAS",
+    "RASE",
+    "RES",
+    "RUE",
+    "RUES",
+    "RUSE",
+    "RUSES",
+    "SAE",
+    "SAU",
+    "SEA",
+    "SEAR",
+    "SEARS",
+    "SEAS",
+    "SER",
+    "SERA",
+    "SERS",
+    "SUES",
+    "SURA",
+    "SURAS",
+    "SURE",
+    "UREA",
+    "URSA",
+    "USE",
+    "USER",
+    "USERS",
+    "USES"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "roundId": "amazon_rainforest_r4",
+  "themeId": "amazon_rainforest",
+  "themeDisplayName": "Amazon Rainforest",
+  "wordLengthBucket": 5,
+  "unsplashQuery": "amazon rainforest",
+  "levelIds": [
+    "amazon_rainforest_r4_001",
+    "amazon_rainforest_r4_002",
+    "amazon_rainforest_r4_003",
+    "amazon_rainforest_r4_004",
+    "amazon_rainforest_r4_005",
+    "amazon_rainforest_r4_006",
+    "amazon_rainforest_r4_007",
+    "amazon_rainforest_r4_008",
+    "amazon_rainforest_r4_009",
+    "amazon_rainforest_r4_010"
+  ],
+  "backgroundImage": "images/amazon_rainforest.jpg",
+  "attribution": {
+    "name": "Ish Consul",
+    "profileUrl": "https://unsplash.com/@ishconsul?utm_source=wordwheel&utm_medium=referral"
+  }
+}

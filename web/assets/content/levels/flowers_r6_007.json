@@ -1,0 +1,272 @@
+{
+  "levelId": "flowers_r6_007",
+  "themeId": "flowers",
+  "roundId": "flowers_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "STORED",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "RODE",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "ROD",
+      "row": 2,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "TORE",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "DOT",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "TOE",
+      "row": 2,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "SET",
+      "row": 1,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "DOE",
+    "DOER",
+    "DOERS",
+    "DOES",
+    "DOEST",
+    "DOR",
+    "DORE",
+    "DORS",
+    "DOS",
+    "DOSE",
+    "DOST",
+    "DOTE",
+    "DOTES",
+    "DOTS",
+    "EROS",
+    "ERS",
+    "ERST",
+    "ODE",
+    "ODES",
+    "ODS",
+    "OES",
+    "ORE",
+    "ORES",
+    "ORS",
+    "ORT",
+    "OSE",
+    "RED",
+    "REDO",
+    "REDS",
+    "RES",
+    "REST",
+    "RET",
+    "RETS",
+    "RODS",
+    "ROE",
+    "ROES",
+    "ROSE",
+    "ROT",
+    "ROTE",
+    "ROTES",
+    "ROTS",
+    "SER",
+    "SOD",
+    "SORE",
+    "SORT",
+    "SORTED",
+    "SOT",
+    "STORE",
+    "STRODE",
+    "TED",
+    "TEDS",
+    "TOD",
+    "TODS",
+    "TOED",
+    "TOES",
+    "TOR",
+    "TORS",
+    "TROD"
+  ]
+}

@@ -13,15 +13,31 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import random
 from pathlib import Path
 
 from .curate import curate
 from .level_builder import build_level
+from .theme_images import ensure_theme_image
 from .wordlist import WordList
 
 CONTENT_TOOLS_DIR = Path(__file__).resolve().parent.parent
 THEME_POOL_DIR = CONTENT_TOOLS_DIR / "config" / "theme_word_pools"
+
+
+def _load_dotenv(path: Path) -> None:
+    """Minimal .env loader (KEY=VALUE per line) - not pulling in a dependency
+    just for this. Existing environment variables always win, so a real
+    shell export still overrides the file."""
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or "=" not in line:
+            continue
+        key, _, value = line.partition("=")
+        os.environ.setdefault(key.strip(), value.strip())
 
 
 def load_theme_pool(theme_id: str) -> list[str]:
@@ -72,12 +88,15 @@ def generate_batch(theme_id: str, round_id: str, length: int, count: int,
     return levels
 
 
-def write_levels(levels: list[dict], out_dir: Path) -> list[str]:
+def write_levels(levels: list[dict], out_dir: Path, round_id: str) -> list[str]:
     out_dir.mkdir(parents=True, exist_ok=True)
     written = []
     for i, level in enumerate(levels, start=1):
-        # Re-number to a stable, sequential id within the round.
-        level["levelId"] = f"{level['themeId']}_{level['wordLengthBucket']}_{i:03d}"
+        # Re-number to a stable, sequential id within the round. Keyed by
+        # round_id, not just theme+length - two rounds of the same length
+        # for the same theme (e.g. the "two 5-letter rounds" in a ladder)
+        # would otherwise collide and overwrite each other's level files.
+        level["levelId"] = f"{round_id}_{i:03d}"
         path = out_dir / f"{level['levelId']}.json"
         with open(path, "w", encoding="utf-8") as f:
             json.dump(level, f, indent=2)
@@ -86,7 +105,8 @@ def write_levels(levels: list[dict], out_dir: Path) -> list[str]:
 
 
 def write_round(round_id: str, theme_id: str, theme_display_name: str, length: int,
-                 unsplash_query: str, level_ids: list[str], out_dir: Path) -> None:
+                 unsplash_query: str, level_ids: list[str], out_dir: Path,
+                 image: dict | None = None) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     round_data = {
         "roundId": round_id,
@@ -96,11 +116,16 @@ def write_round(round_id: str, theme_id: str, theme_display_name: str, length: i
         "unsplashQuery": unsplash_query,
         "levelIds": level_ids,
     }
+    if image:
+        round_data["backgroundImage"] = image["path"]
+        round_data["attribution"] = image["attribution"]
     with open(out_dir / f"{round_id}.json", "w", encoding="utf-8") as f:
         json.dump(round_data, f, indent=2)
 
 
 def main() -> None:
+    _load_dotenv(CONTENT_TOOLS_DIR / ".env")
+
     parser = argparse.ArgumentParser(description="Generate a batch of levels for one round.")
     parser.add_argument("--theme", required=True)
     parser.add_argument("--theme-display-name", default=None)
@@ -111,6 +136,12 @@ def main() -> None:
     parser.add_argument("--keep", type=int, default=10, help="final levels to keep after curation")
     parser.add_argument("--out", type=Path, default=CONTENT_TOOLS_DIR.parent / "content" / "generated")
     parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument(
+        "--unsplash-access-key", default=os.environ.get("UNSPLASH_ACCESS_KEY"),
+        help="fetches and bundles a theme photo at generation time (also reads UNSPLASH_ACCESS_KEY env var). "
+             "The client never calls Unsplash or holds a key - omit this and the round just uses a gradient "
+             "background instead of a photo.",
+    )
     args = parser.parse_args()
 
     wordlist = WordList()
@@ -120,15 +151,33 @@ def main() -> None:
     kept = curate(candidates, args.keep)
     print(f"Kept {len(kept)} after curation.")
 
-    level_ids = write_levels(kept, args.out / "levels")
+    level_ids = write_levels(kept, args.out / "levels", args.round_id)
+    unsplash_query = args.unsplash_query or args.theme.replace("_", " ")
+
+    image = None
+    if args.unsplash_access_key:
+        # A photo is decorative, not core content - a failed/empty search
+        # shouldn't take down the whole run and lose the actual puzzle data
+        # that's already been generated. Fall back to no image (client uses
+        # its gradient fallback) and keep going.
+        try:
+            image = ensure_theme_image(args.theme, unsplash_query, args.unsplash_access_key, args.out / "images")
+            print(f"Theme image: {image['path']} (photo by {image['attribution']['name']})")
+        except Exception as err:
+            print(f"Theme image fetch failed ({err}) - round will use a gradient background instead.")
+    else:
+        print("No Unsplash access key (--unsplash-access-key or UNSPLASH_ACCESS_KEY) - "
+              "round will use a gradient background instead of a photo.")
+
     write_round(
         round_id=args.round_id,
         theme_id=args.theme,
         theme_display_name=args.theme_display_name or args.theme.replace("_", " ").title(),
         length=args.length,
-        unsplash_query=args.unsplash_query or args.theme.replace("_", " "),
+        unsplash_query=unsplash_query,
         level_ids=level_ids,
         out_dir=args.out / "rounds",
+        image=image,
     )
     print(f"Wrote {len(level_ids)} levels and round '{args.round_id}' to {args.out}")
 

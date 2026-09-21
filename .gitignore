@@ -4,5 +4,6 @@ ios/
 content/candidates/
 content-tools/__pycache__/
 content-tools/generator/__pycache__/
+content-tools/.env
 *.pyc
 .DS_Store

@@ -1,0 +1,210 @@
+{
+  "levelId": "italy_r6_004",
+  "themeId": "italy",
+  "roundId": "italy_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 3,
+    "cols": 9
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "SOUNDS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "NOD",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "SON",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SUN",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "DON",
+      "row": 2,
+      "col": 3,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "UNDO",
+      "row": 1,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 1,
+          "col": 8
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    },
+    {
+      "letter": "U",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "DONS",
+    "DOS",
+    "DOSS",
+    "DUN",
+    "DUNS",
+    "DUO",
+    "DUOS",
+    "NODS",
+    "NOS",
+    "NOUS",
+    "NUS",
+    "ODS",
+    "ONS",
+    "ONUS",
+    "OUD",
+    "SOD",
+    "SODS",
+    "SONS",
+    "SOS",
+    "SOU",
+    "SOUND",
+    "SOUS",
+    "SUDS",
+    "SUNS",
+    "UDO",
+    "UNS"
+  ]
+}

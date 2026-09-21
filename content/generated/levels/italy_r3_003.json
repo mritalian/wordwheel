@@ -1,0 +1,161 @@
+{
+  "levelId": "italy_r3_003",
+  "themeId": "italy",
+  "roundId": "italy_r3",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 3,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "EIGHT",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "THE",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "GET",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "TIE",
+      "row": 2,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "HIT",
+      "row": 1,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "G",
+      "count": 1
+    },
+    {
+      "letter": "H",
+      "count": 1
+    },
+    {
+      "letter": "I",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ETH",
+    "GHI",
+    "GIE",
+    "GIT",
+    "HET",
+    "HIE",
+    "TEG"
+  ]
+}

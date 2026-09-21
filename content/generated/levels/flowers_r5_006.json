@@ -1,0 +1,218 @@
+{
+  "levelId": "flowers_r5_006",
+  "themeId": "flowers",
+  "roundId": "flowers_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "FORCES",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "FOES",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "ROSE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SORE",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SCORE",
+      "row": 2,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "C",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "F",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "CERO",
+    "COR",
+    "CORE",
+    "CORES",
+    "CORSE",
+    "COS",
+    "EFS",
+    "EROS",
+    "ERS",
+    "FER",
+    "FOE",
+    "FOR",
+    "FORCE",
+    "FORE",
+    "FORES",
+    "FRESCO",
+    "FRO",
+    "OES",
+    "ORC",
+    "ORCS",
+    "ORE",
+    "ORES",
+    "ORS",
+    "OSE",
+    "REC",
+    "RECS",
+    "REF",
+    "REFS",
+    "RES",
+    "ROC",
+    "ROCS",
+    "ROE",
+    "ROES",
+    "SEC",
+    "SER",
+    "SERF"
+  ]
+}

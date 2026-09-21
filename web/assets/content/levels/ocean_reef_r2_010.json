@@ -1,0 +1,126 @@
+{
+  "levelId": "ocean_reef_r2_010",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r2",
+  "wordLengthBucket": 4,
+  "grid": {
+    "rows": 3,
+    "cols": 5
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "BUSY",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "SUB",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "BUS",
+      "row": 2,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "BUY",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "B",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    },
+    {
+      "letter": "U",
+      "count": 1
+    },
+    {
+      "letter": "Y",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "BUYS",
+    "BYS"
+  ]
+}

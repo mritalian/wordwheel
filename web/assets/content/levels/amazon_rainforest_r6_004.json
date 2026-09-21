@@ -1,0 +1,169 @@
+{
+  "levelId": "amazon_rainforest_r6_004",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 3,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "PAGODA",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "DOG",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "GAP",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "PAD",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "GOD",
+      "row": 2,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 2
+    },
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "G",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "P",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ADO",
+    "AGA",
+    "AGO",
+    "APOD",
+    "DAG",
+    "DAP",
+    "DOPA",
+    "GAD",
+    "GOA",
+    "GOAD",
+    "POD"
+  ]
+}

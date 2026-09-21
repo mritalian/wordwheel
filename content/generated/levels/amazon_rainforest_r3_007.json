@@ -1,0 +1,163 @@
+{
+  "levelId": "amazon_rainforest_r3_007",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r3",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 3,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "CASES",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "SEA",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "CASE",
+      "row": 2,
+      "col": 3,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "ACE",
+      "row": 0,
+      "col": 6,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 6
+        },
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "ASS",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "C",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    }
+  ],
+  "bonusWords": [
+    "ACES",
+    "CESS",
+    "ESS",
+    "SAC",
+    "SACS",
+    "SAE",
+    "SEAS",
+    "SEC",
+    "SECS"
+  ]
+}

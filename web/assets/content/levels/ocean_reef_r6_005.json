@@ -1,0 +1,220 @@
+{
+  "levelId": "ocean_reef_r6_005",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "SCHEMA",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "SEA",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "MESH",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 3,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "MASH",
+      "row": 2,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "HAM",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "C",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "H",
+      "count": 1
+    },
+    {
+      "letter": "M",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ACE",
+    "ACES",
+    "ACHE",
+    "ACHES",
+    "ACME",
+    "AHEM",
+    "ASH",
+    "CAM",
+    "CAME",
+    "CAMES",
+    "CAMS",
+    "CASE",
+    "CASH",
+    "CHAM",
+    "CHASE",
+    "CHASM",
+    "EACH",
+    "EMS",
+    "HAE",
+    "HAEM",
+    "HAES",
+    "HAME",
+    "HAMES",
+    "HAMS",
+    "HAS",
+    "HEM",
+    "HEMS",
+    "HES",
+    "MAC",
+    "MACE",
+    "MACES",
+    "MACH",
+    "MACHE",
+    "MACS",
+    "MAE",
+    "MAES",
+    "MAS",
+    "MESA",
+    "SAC",
+    "SACHEM",
+    "SAE",
+    "SAME",
+    "SCAM",
+    "SEAM",
+    "SEC",
+    "SHA",
+    "SHAM",
+    "SHAME",
+    "SHE",
+    "SHEA"
+  ]
+}

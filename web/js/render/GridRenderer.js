@@ -32,16 +32,29 @@ export class GridRenderer {
     ctx.save();
     const radius = 6;
     this._roundRect(ctx, x + gap / 2, y + gap / 2, cellSize - gap, cellSize - gap, radius);
+
+    ctx.shadowColor = "rgba(0,0,0,0.35)";
+    ctx.shadowBlur = 6;
+    ctx.shadowOffsetY = 3;
     ctx.fillStyle = isRevealed
-      ? this._lerpColor("rgba(255,255,255,0.12)", "rgba(255,203,71,0.92)", progress)
-      : "rgba(255,255,255,0.12)";
+      ? this._lerpColor("rgba(244,242,238,0.92)", "rgba(20,184,166,1)", progress)
+      : "rgba(244,242,238,0.92)";
     ctx.fill();
+
+    ctx.shadowColor = "transparent";
+    ctx.shadowBlur = 0;
+    ctx.shadowOffsetY = 0;
+    ctx.lineWidth = 1.5;
+    ctx.strokeStyle = isRevealed
+      ? this._lerpColor("rgba(0,0,0,0.15)", "rgba(13,148,136,1)", progress)
+      : "rgba(0,0,0,0.15)";
+    ctx.stroke();
     ctx.restore();
 
     if (isRevealed && progress > 0.4) {
       ctx.save();
       ctx.globalAlpha = Math.min(1, (progress - 0.4) / 0.6);
-      ctx.fillStyle = "#10141a";
+      ctx.fillStyle = "#ffffff";
       ctx.font = `700 ${Math.floor(cellSize * 0.45)}px sans-serif`;
       ctx.textAlign = "center";
       ctx.textBaseline = "middle";

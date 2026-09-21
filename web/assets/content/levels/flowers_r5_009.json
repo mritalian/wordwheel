@@ -1,0 +1,293 @@
+{
+  "levelId": "flowers_r5_009",
+  "themeId": "flowers",
+  "roundId": "flowers_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 9
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "DREAMT",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "ART",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "TAR",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "DAM",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "ATE",
+      "row": 1,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 1,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "TEAR",
+      "row": 0,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 7
+        },
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "ARE",
+      "row": 3,
+      "col": 6,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 6
+        },
+        {
+          "row": 3,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 8
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w8",
+      "text": "MEAT",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "M",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ARM",
+    "ARMED",
+    "DAME",
+    "DARE",
+    "DART",
+    "DATE",
+    "DATER",
+    "DEAR",
+    "DERM",
+    "DERMA",
+    "DRAM",
+    "DRAT",
+    "DREAM",
+    "EAR",
+    "EAT",
+    "ERA",
+    "ETA",
+    "MAD",
+    "MADE",
+    "MADRE",
+    "MAE",
+    "MAR",
+    "MARE",
+    "MART",
+    "MAT",
+    "MATE",
+    "MATED",
+    "MATER",
+    "MEAD",
+    "MED",
+    "MET",
+    "META",
+    "RAD",
+    "RAM",
+    "RAT",
+    "RATE",
+    "RATED",
+    "READ",
+    "REAM",
+    "RED",
+    "REM",
+    "RET",
+    "TAD",
+    "TAE",
+    "TAM",
+    "TAME",
+    "TAMED",
+    "TAMER",
+    "TARE",
+    "TEA",
+    "TEAM",
+    "TED",
+    "TERM",
+    "TRAD",
+    "TRADE",
+    "TRAM",
+    "TREAD"
+  ]
+}

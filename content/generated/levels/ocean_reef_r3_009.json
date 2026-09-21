@@ -1,0 +1,178 @@
+{
+  "levelId": "ocean_reef_r3_009",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r3",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 5,
+    "cols": 5
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "ROUTE",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "ROT",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "TOUR",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "OUT",
+      "row": 2,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 4,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "TORE",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    },
+    {
+      "letter": "U",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "EURO",
+    "ORE",
+    "ORT",
+    "OUR",
+    "OUTER",
+    "OUTRE",
+    "RET",
+    "ROE",
+    "ROTE",
+    "ROUE",
+    "ROUT",
+    "RUE",
+    "RUT",
+    "TOE",
+    "TOR",
+    "TRUE"
+  ]
+}

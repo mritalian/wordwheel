@@ -1,0 +1,93 @@
+{
+  "levelId": "amazon_rainforest_r1_003",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r1",
+  "wordLengthBucket": 3,
+  "grid": {
+    "rows": 3,
+    "cols": 4
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "WON",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "OWN",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "NOW",
+      "row": 2,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "W",
+      "count": 1
+    }
+  ],
+  "bonusWords": []
+}

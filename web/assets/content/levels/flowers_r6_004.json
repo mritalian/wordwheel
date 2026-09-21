@@ -1,0 +1,222 @@
+{
+  "levelId": "flowers_r6_004",
+  "themeId": "flowers",
+  "roundId": "flowers_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 5,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "ORATOR",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "ROTOR",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 4,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "TAR",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "RAT",
+      "row": 2,
+      "col": 3,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "TOO",
+      "row": 3,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "ROT",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "ART",
+      "row": 2,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 3,
+          "col": 4
+        },
+        {
+          "row": 4,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 2
+    },
+    {
+      "letter": "R",
+      "count": 2
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "OAR",
+    "OAT",
+    "OOT",
+    "ORA",
+    "ORT",
+    "RATO",
+    "ROAR",
+    "ROOT",
+    "ROTA",
+    "ROTO",
+    "TAO",
+    "TARO",
+    "TOR",
+    "TORA",
+    "TORO",
+    "TORR"
+  ]
+}

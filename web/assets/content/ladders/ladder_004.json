@@ -1,0 +1,12 @@
+{
+  "ladderId": "ladder_004",
+  "themeId": "ocean_reef",
+  "sequence": [
+    { "roundId": "ocean_reef_r1", "wordLengthBucket": 3 },
+    { "roundId": "ocean_reef_r2", "wordLengthBucket": 4 },
+    { "roundId": "ocean_reef_r3", "wordLengthBucket": 5 },
+    { "roundId": "ocean_reef_r4", "wordLengthBucket": 5 },
+    { "roundId": "ocean_reef_r5", "wordLengthBucket": 6 },
+    { "roundId": "ocean_reef_r6", "wordLengthBucket": 6 }
+  ]
+}

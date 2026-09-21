@@ -1,0 +1,233 @@
+{
+  "levelId": "flowers_r6_008",
+  "themeId": "flowers",
+  "roundId": "flowers_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "DEADLY",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "DEAL",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "AYE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "LAD",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "DEAD",
+      "row": 2,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "ALE",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "LAY",
+      "row": 1,
+      "col": 6,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 3,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "D",
+      "count": 2
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "L",
+      "count": 1
+    },
+    {
+      "letter": "Y",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ADD",
+    "ADDLE",
+    "DAD",
+    "DAL",
+    "DALE",
+    "DAY",
+    "DEL",
+    "DELAY",
+    "DEY",
+    "DYAD",
+    "DYE",
+    "DYED",
+    "EDDY",
+    "ELD",
+    "LADE",
+    "LADY",
+    "LAYED",
+    "LEA",
+    "LEAD",
+    "LED",
+    "LEY",
+    "LYE",
+    "YEA"
+  ]
+}

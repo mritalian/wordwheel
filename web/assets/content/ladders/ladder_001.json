@@ -2,6 +2,11 @@
   "ladderId": "ladder_001",
   "themeId": "amazon_rainforest",
   "sequence": [
-    { "roundId": "amazon_rainforest_r1", "wordLengthBucket": 5 }
+    { "roundId": "amazon_rainforest_r1", "wordLengthBucket": 3 },
+    { "roundId": "amazon_rainforest_r2", "wordLengthBucket": 4 },
+    { "roundId": "amazon_rainforest_r3", "wordLengthBucket": 5 },
+    { "roundId": "amazon_rainforest_r4", "wordLengthBucket": 5 },
+    { "roundId": "amazon_rainforest_r5", "wordLengthBucket": 6 },
+    { "roundId": "amazon_rainforest_r6", "wordLengthBucket": 6 }
   ]
 }

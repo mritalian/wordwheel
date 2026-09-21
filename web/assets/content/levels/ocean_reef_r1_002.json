@@ -1,0 +1,93 @@
+{
+  "levelId": "ocean_reef_r1_002",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r1",
+  "wordLengthBucket": 3,
+  "grid": {
+    "rows": 3,
+    "cols": 3
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "NOW",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "WON",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "OWN",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "W",
+      "count": 1
+    }
+  ],
+  "bonusWords": []
+}

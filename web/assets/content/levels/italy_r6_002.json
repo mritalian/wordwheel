@@ -1,0 +1,303 @@
+{
+  "levelId": "italy_r6_002",
+  "themeId": "italy",
+  "roundId": "italy_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 6,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "PARENT",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "RATE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "PER",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "EAT",
+      "row": 3,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "RAT",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "TEN",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "ATE",
+      "row": 3,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 3,
+          "col": 3
+        },
+        {
+          "row": 4,
+          "col": 3
+        },
+        {
+          "row": 5,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w8",
+      "text": "TAPER",
+      "row": 5,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 5,
+          "col": 0
+        },
+        {
+          "row": 5,
+          "col": 1
+        },
+        {
+          "row": 5,
+          "col": 2
+        },
+        {
+          "row": 5,
+          "col": 3
+        },
+        {
+          "row": 5,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "P",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ANE",
+    "ANT",
+    "ANTE",
+    "APE",
+    "APER",
+    "APT",
+    "APTER",
+    "ARE",
+    "ART",
+    "EAR",
+    "EARN",
+    "ENTRAP",
+    "ERA",
+    "ERN",
+    "ETA",
+    "ETNA",
+    "NAE",
+    "NAP",
+    "NAPE",
+    "NEAP",
+    "NEAR",
+    "NEAT",
+    "NET",
+    "PAN",
+    "PANE",
+    "PANT",
+    "PAR",
+    "PARE",
+    "PART",
+    "PAT",
+    "PATE",
+    "PATEN",
+    "PATER",
+    "PEA",
+    "PEAR",
+    "PEART",
+    "PEAT",
+    "PEN",
+    "PENT",
+    "PERT",
+    "PET",
+    "PRAT",
+    "PRATE",
+    "RAN",
+    "RANT",
+    "RAP",
+    "RAPT",
+    "REAP",
+    "RENT",
+    "REP",
+    "RET",
+    "TAE",
+    "TAN",
+    "TAP",
+    "TAPE",
+    "TAR",
+    "TARE",
+    "TARN",
+    "TARP",
+    "TEA",
+    "TEAR",
+    "TERN",
+    "TRAP"
+  ]
+}

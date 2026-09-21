@@ -1,0 +1,255 @@
+{
+  "levelId": "ocean_reef_r5_002",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "BODIES",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "DOSE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "SIDE",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "BID",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "DIE",
+      "row": 2,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "BED",
+      "row": 3,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "DOES",
+      "row": 0,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 7
+        },
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "B",
+      "count": 1
+    },
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "I",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "BEDS",
+    "BIDE",
+    "BIDES",
+    "BIDS",
+    "BIO",
+    "BIOS",
+    "BIS",
+    "BISE",
+    "BOD",
+    "BODE",
+    "BODES",
+    "BODS",
+    "BOS",
+    "DEB",
+    "DEBS",
+    "DIB",
+    "DIBS",
+    "DIES",
+    "DIS",
+    "DOBIE",
+    "DOE",
+    "DOS",
+    "EIDOS",
+    "IDES",
+    "IDS",
+    "OBE",
+    "OBES",
+    "OBI",
+    "ODE",
+    "ODES",
+    "ODS",
+    "OES",
+    "OSE",
+    "SEI",
+    "SIB",
+    "SOB",
+    "SOD"
+  ]
+}

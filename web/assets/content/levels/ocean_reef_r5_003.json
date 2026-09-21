@@ -1,0 +1,245 @@
+{
+  "levelId": "ocean_reef_r5_003",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "SPORTS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "POST",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "SPOT",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "TOP",
+      "row": 3,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 6
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "ROT",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "STOP",
+      "row": 0,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 7
+        },
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "POT",
+      "row": 1,
+      "col": 5,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 1,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "P",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "OPS",
+    "OPT",
+    "OPTS",
+    "ORS",
+    "ORT",
+    "PORT",
+    "PORTS",
+    "POSTS",
+    "POTS",
+    "PRO",
+    "PROS",
+    "PROSS",
+    "PROST",
+    "PSST",
+    "ROTS",
+    "SOP",
+    "SOPS",
+    "SORT",
+    "SORTS",
+    "SOS",
+    "SOT",
+    "SOTS",
+    "SPORT",
+    "SPOTS",
+    "STOPS",
+    "STROP",
+    "TOPS",
+    "TOR",
+    "TORS",
+    "TOSS",
+    "TROP"
+  ]
+}

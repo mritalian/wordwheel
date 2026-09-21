@@ -23,6 +23,15 @@ export class GameState {
     this.foundBonusWords.add(word);
   }
 
+  restore({ foundWordIds = [], bonusWordsFound = [] } = {}) {
+    const wordsById = new Map(this.level.words.map((w) => [w.wordId, w]));
+    for (const id of foundWordIds) {
+      const word = wordsById.get(id);
+      if (word) this.revealWord(word);
+    }
+    for (const word of bonusWordsFound) this.addBonusWord(word);
+  }
+
   isComplete() {
     return this.foundWordIds.size === this.level.words.length;
   }

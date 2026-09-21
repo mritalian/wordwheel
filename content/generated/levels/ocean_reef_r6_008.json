@@ -1,0 +1,178 @@
+{
+  "levelId": "ocean_reef_r6_008",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "LEVELS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "EVE",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "ELSE",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SEE",
+      "row": 2,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SELL",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 3,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "E",
+      "count": 2
+    },
+    {
+      "letter": "L",
+      "count": 2
+    },
+    {
+      "letter": "S",
+      "count": 1
+    },
+    {
+      "letter": "V",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "EEL",
+    "EELS",
+    "ELL",
+    "ELLS",
+    "ELS",
+    "ELVES",
+    "EVES",
+    "LEE",
+    "LEES",
+    "LEV",
+    "LEVEL",
+    "SEEL",
+    "SEL",
+    "SELLE",
+    "VEE",
+    "VEES"
+  ]
+}

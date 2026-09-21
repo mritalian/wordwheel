@@ -1,0 +1,189 @@
+{
+  "levelId": "flowers_r4_004",
+  "themeId": "flowers",
+  "roundId": "flowers_r4",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 3,
+    "cols": 7
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "RAGES",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "ARE",
+      "row": 0,
+      "col": 1,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 1,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 1
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "SEA",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "EAR",
+      "row": 1,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "ERA",
+      "row": 0,
+      "col": 6,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 6
+        },
+        {
+          "row": 1,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 6
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "G",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "AGE",
+    "AGER",
+    "AGERS",
+    "AGES",
+    "ARES",
+    "ARS",
+    "ARSE",
+    "EARS",
+    "ERAS",
+    "ERG",
+    "ERGS",
+    "ERS",
+    "GAE",
+    "GAR",
+    "GARS",
+    "GAS",
+    "GEAR",
+    "GEARS",
+    "RAG",
+    "RAGE",
+    "RAGS",
+    "RAS",
+    "RASE",
+    "REG",
+    "REGS",
+    "RES",
+    "SAE",
+    "SAG",
+    "SAGE",
+    "SAGER",
+    "SARGE",
+    "SEAR",
+    "SEG",
+    "SER",
+    "SERA"
+  ]
+}

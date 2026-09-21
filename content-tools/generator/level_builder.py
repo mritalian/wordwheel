@@ -15,7 +15,7 @@ from collections import Counter
 from .bonus_words import find_bonus_words
 from .grid_builder import GridResult, build_interlocking_set
 from .wheel import derive_wheel_letters
-from .wordlist import WordList
+from .wordlist import WordList, dedupe_inflections, word_stem
 
 GRID_SIZE_CAPS = {
     3: (6, 6),
@@ -24,41 +24,23 @@ GRID_SIZE_CAPS = {
     6: (9, 9),
 }
 DEFAULT_GRID_CAP = (9, 9)
-TARGET_WORD_COUNT_RANGE = (5, 7)
-STANDALONE_CHANCE = 0.12
 
-# How many distinct wheel letters to aim for, given the round's target word
-# length - a real Wordscapes-style wheel is usually the anchor word's length
-# plus one or two extra letters, not a dozen+.
-WHEEL_SIZE_RANGE = {
-    3: (5, 6),
-    4: (6, 7),
-    5: (7, 8),
-    6: (8, 9),
+# A word placed in the grid must be >=3 letters (grid_builder's own floor),
+# and every placed word is a subset of the wheel's exact letter multiset. For
+# a 3-letter wheel that means the ONLY possible grid words are anagrams of
+# the anchor itself (there's no shorter subset to draw on) - most letter
+# triples have at most a couple of valid anagram siblings, so demanding 5+
+# words (fine for 5-6 letter rounds, where plenty of shorter subset words
+# exist) is essentially unsatisfiable and silently drops every 3-letter
+# candidate. Scale the target down for short rounds instead.
+TARGET_WORD_COUNT_RANGE_BY_LENGTH = {
+    3: (2, 4),
+    4: (3, 6),
+    5: (5, 7),
+    6: (5, 8),
 }
-
-# Rough English letter frequency order, used to pick "natural" extra wheel
-# letters rather than uniformly random ones.
-LETTER_FREQUENCY_ORDER = "ETAOINSHRDLCUMWFGYPBVKJXQZ"
-
-
-def _pick_wheel_letters(anchor_word: str, target_size: int, rng: random.Random) -> dict[str, int]:
-    counts = Counter(anchor_word.lower())
-    extra_needed = target_size - len(counts)
-    if extra_needed > 0:
-        available_extra = [ch for ch in LETTER_FREQUENCY_ORDER.lower() if ch not in counts]
-        # Weight toward the front of the frequency order without being fully
-        # deterministic: sample from the more-common half most of the time.
-        weights = [1.0 / (i + 1) for i in range(len(available_extra))]
-        chosen: set[str] = set()
-        pool = list(zip(available_extra, weights))
-        while len(chosen) < min(extra_needed, len(pool)):
-            letters, letter_weights = zip(*[p for p in pool if p[0] not in chosen])
-            pick = rng.choices(letters, weights=letter_weights, k=1)[0]
-            chosen.add(pick)
-        for letter in chosen:
-            counts[letter] = 1
-    return dict(counts)
+DEFAULT_TARGET_WORD_COUNT_RANGE = (5, 7)
+STANDALONE_CHANCE = 0.12
 
 
 def build_level(
@@ -75,9 +57,12 @@ def build_level(
         return None
 
     anchor = rng.choice(candidate_words).lower()
-    min_size, max_size = WHEEL_SIZE_RANGE.get(word_length, (7, 8))
-    target_wheel_size = rng.randint(min_size, max_size)
-    wheel_letters = _pick_wheel_letters(anchor, target_wheel_size, rng)
+    # The wheel is exactly the anchor word's own letters (counting
+    # duplicates) - no extra "flavor" tiles. That guarantees the anchor
+    # itself is a full-wheel word, and every other placed/bonus word is a
+    # true subset of the same tiles, matching how Wordscapes-style wheels
+    # actually work (one word uses every tile, shorter ones use a subset).
+    wheel_letters = dict(Counter(anchor))
 
     # Every real, legal word spellable from this exact letter multiset.
     # Puzzle-tier ones are candidates for the grid; the bonus-tier superset
@@ -87,11 +72,22 @@ def build_level(
     if anchor.upper() not in puzzle_candidates:
         puzzle_candidates.append(anchor.upper())
 
-    if len(puzzle_candidates) < TARGET_WORD_COUNT_RANGE[0]:
+    # No two candidates that are just inflections of each other (e.g. FLEA
+    # + FLEAS, NEED + NEEDS) - the anchor always wins its own group since it
+    # must survive to be force-placed below.
+    puzzle_candidates = dedupe_inflections(puzzle_candidates)
+    anchor_upper = anchor.upper()
+    if anchor_upper not in puzzle_candidates:
+        anchor_stem = word_stem(anchor)
+        puzzle_candidates = [w for w in puzzle_candidates if word_stem(w) != anchor_stem]
+        puzzle_candidates.append(anchor_upper)
+
+    target_word_count_range = TARGET_WORD_COUNT_RANGE_BY_LENGTH.get(word_length, DEFAULT_TARGET_WORD_COUNT_RANGE)
+    if len(puzzle_candidates) < target_word_count_range[0]:
         return None
 
     max_rows, max_cols = GRID_SIZE_CAPS.get(word_length, DEFAULT_GRID_CAP)
-    target_count = min(TARGET_WORD_COUNT_RANGE[1], max(TARGET_WORD_COUNT_RANGE[0], len(puzzle_candidates)))
+    target_count = min(target_word_count_range[1], max(target_word_count_range[0], len(puzzle_candidates)))
 
     grid: GridResult | None = build_interlocking_set(
         puzzle_candidates,
@@ -100,8 +96,9 @@ def build_level(
         max_cols=max_cols,
         rng_seed=rng_seed,
         standalone_chance=STANDALONE_CHANCE,
+        required_word=anchor.upper(),
     )
-    if grid is None or len(grid.words) < TARGET_WORD_COUNT_RANGE[0]:
+    if grid is None or len(grid.words) < target_word_count_range[0]:
         return None
 
     # The wheel must supply exactly enough tiles for whatever the grid ended

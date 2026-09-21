@@ -1,0 +1,184 @@
+{
+  "levelId": "flowers_r5_003",
+  "themeId": "flowers",
+  "roundId": "flowers_r5",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 6
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "MEMOIR",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "MORE",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "MOM",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "MEMO",
+      "row": 3,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 1
+        },
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "RIM",
+      "row": 0,
+      "col": 5,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 5
+        },
+        {
+          "row": 1,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "I",
+      "count": 1
+    },
+    {
+      "letter": "M",
+      "count": 2
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "R",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "EMIR",
+    "IRE",
+    "MEM",
+    "MIM",
+    "MIME",
+    "MIR",
+    "MIRE",
+    "MOIRE",
+    "MOME",
+    "MOMI",
+    "MOR",
+    "OMER",
+    "ORE",
+    "REI",
+    "REM",
+    "RIME",
+    "ROE",
+    "ROM"
+  ]
+}

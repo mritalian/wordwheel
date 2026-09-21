@@ -1,0 +1,285 @@
+{
+  "levelId": "ocean_reef_r6_004",
+  "themeId": "ocean_reef",
+  "roundId": "ocean_reef_r6",
+  "wordLengthBucket": 6,
+  "grid": {
+    "rows": 4,
+    "cols": 8
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "STEALS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 0,
+          "col": 5
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "EAT",
+      "row": 0,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 1,
+          "col": 2
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "LESS",
+      "row": 0,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 4
+        },
+        {
+          "row": 1,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 3,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SALT",
+      "row": 2,
+      "col": 4,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 4
+        },
+        {
+          "row": 2,
+          "col": 5
+        },
+        {
+          "row": 2,
+          "col": 6
+        },
+        {
+          "row": 2,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SALE",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "ATE",
+      "row": 1,
+      "col": 7,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 1,
+          "col": 7
+        },
+        {
+          "row": 2,
+          "col": 7
+        },
+        {
+          "row": 3,
+          "col": 7
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "LET",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "A",
+      "count": 1
+    },
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "L",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 2
+    },
+    {
+      "letter": "T",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ALE",
+    "ALES",
+    "ALS",
+    "ALT",
+    "ALTS",
+    "ASS",
+    "ASSET",
+    "ATES",
+    "EAST",
+    "EASTS",
+    "EATS",
+    "ELS",
+    "ESS",
+    "ETA",
+    "ETAS",
+    "LAS",
+    "LASE",
+    "LASS",
+    "LAST",
+    "LASTS",
+    "LAT",
+    "LATE",
+    "LATS",
+    "LEA",
+    "LEAS",
+    "LEAST",
+    "LEST",
+    "LETS",
+    "SAE",
+    "SAL",
+    "SALES",
+    "SALS",
+    "SALTS",
+    "SAT",
+    "SATE",
+    "SATES",
+    "SEA",
+    "SEAL",
+    "SEALS",
+    "SEAS",
+    "SEAT",
+    "SEATS",
+    "SEL",
+    "SELS",
+    "SET",
+    "SETA",
+    "SETS",
+    "SLAT",
+    "SLATE",
+    "SLATES",
+    "SLATS",
+    "STALE",
+    "STEAL",
+    "STELA",
+    "TAE",
+    "TAEL",
+    "TAELS",
+    "TALE",
+    "TALES",
+    "TAS",
+    "TASS",
+    "TASSEL",
+    "TEA",
+    "TEAL",
+    "TEALS",
+    "TEAS",
+    "TEL",
+    "TELA",
+    "TELS",
+    "TESLA",
+    "TESLAS"
+  ]
+}

@@ -5,7 +5,6 @@ function emptyProgress() {
     version: 1,
     currentPosition: { roundId: null, levelIndex: 0 },
     rounds: {},
-    themeUnsplashCache: {},
   };
 }
 
@@ -27,7 +26,7 @@ export class ProgressStore {
 
   ensureRound(roundId) {
     if (!this.data.rounds[roundId]) {
-      this.data.rounds[roundId] = { unlocked: true, levels: {} };
+      this.data.rounds[roundId] = { levels: {} };
     }
     return this.data.rounds[roundId];
   }
@@ -38,25 +37,23 @@ export class ProgressStore {
 
   async markLevelComplete(roundId, levelId, bonusWordsFound) {
     const round = this.ensureRound(roundId);
-    round.levels[levelId] = { completed: true, bonusWordsFound: [...bonusWordsFound] };
+    const existing = round.levels[levelId] ?? {};
+    round.levels[levelId] = { ...existing, completed: true, bonusWordsFound: [...bonusWordsFound] };
     await this.persist();
   }
 
-  isRoundUnlocked(roundId) {
-    return this.data.rounds[roundId]?.unlocked !== false;
+  getLevelState(roundId, levelId) {
+    return this.data.rounds[roundId]?.levels?.[levelId] ?? null;
   }
 
-  async unlockRound(roundId) {
-    this.ensureRound(roundId).unlocked = true;
+  async saveLevelState(roundId, levelId, { foundWordIds, bonusWordsFound }) {
+    const round = this.ensureRound(roundId);
+    const existing = round.levels[levelId] ?? {};
+    round.levels[levelId] = {
+      ...existing,
+      foundWordIds: [...foundWordIds],
+      bonusWordsFound: [...bonusWordsFound],
+    };
     await this.persist();
-  }
-
-  async setThemeCache(roundId, cacheEntry) {
-    this.data.themeUnsplashCache[roundId] = cacheEntry;
-    await this.persist();
-  }
-
-  getThemeCache(roundId) {
-    return this.data.themeUnsplashCache[roundId] ?? null;
   }
 }

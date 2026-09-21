@@ -1,0 +1,12 @@
+{
+  "ladderId": "ladder_003",
+  "themeId": "italy",
+  "sequence": [
+    { "roundId": "italy_r1", "wordLengthBucket": 3 },
+    { "roundId": "italy_r2", "wordLengthBucket": 4 },
+    { "roundId": "italy_r3", "wordLengthBucket": 5 },
+    { "roundId": "italy_r4", "wordLengthBucket": 5 },
+    { "roundId": "italy_r5", "wordLengthBucket": 6 },
+    { "roundId": "italy_r6", "wordLengthBucket": 6 }
+  ]
+}

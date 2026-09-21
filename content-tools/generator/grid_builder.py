@@ -121,21 +121,29 @@ def build_interlocking_set(
     rng_seed: int,
     standalone_chance: float = 0.0,
     max_attempts: int = 200,
+    required_word: str | None = None,
 ) -> GridResult | None:
     """Greedy + backtracking crossword packer.
 
-    Picks a random seed word, then repeatedly adds words that legally
-    intersect the already-placed set, backtracking on dead ends, until
-    `target_count` words are placed or attempts run out.
+    Picks a seed word, then repeatedly adds words that legally intersect the
+    already-placed set, backtracking on dead ends, until `target_count`
+    words are placed or attempts run out. If `required_word` is given, it is
+    always used as the seed (and therefore always placed) instead of a
+    random pick - used to guarantee the wheel's full-length anchor word
+    always ends up in the grid.
     """
     rng = random.Random(rng_seed)
     pool = list({w.upper() for w in candidate_words if len(w) >= 3})
     if len(pool) < target_count:
         return None
 
+    required = required_word.upper() if required_word else None
+    if required and required not in pool:
+        return None
+
     for attempt in range(max_attempts):
         rng.shuffle(pool)
-        seed = pool[0]
+        seed = required if required else pool[0]
         placed: list[PlacedWord] = [PlacedWord("w1", seed, 0, 0, "horizontal")]
         occupied: dict[tuple[int, int], str] = {
             cell: ch for cell, ch in zip(placed[0].cells(), seed)

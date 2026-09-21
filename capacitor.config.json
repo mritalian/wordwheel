@@ -1,6 +1,5 @@
 {
   "appId": "com.summittech.wordwheel",
   "appName": "Word Wheel",
-  "webDir": "web",
-  "bundledWebRuntime": false
+  "webDir": "web"
 }

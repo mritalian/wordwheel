@@ -71,9 +71,16 @@ export class WheelInputHandler {
 
     const secondToLast = this.tracedIndices[this.tracedIndices.length - 2];
     if (secondToLast === hit) {
+      // Backtracking onto the previous node - undo the last step.
       this.tracedIndices.pop();
-    } else {
+    } else if (!this.tracedIndices.includes(hit)) {
+      // Each wheel circle can only be used once per trace, even if the
+      // same letter appears on another circle (e.g. two G tiles are two
+      // separate, independently-usable nodes; revisiting the same circle
+      // is not).
       this.tracedIndices.push(hit);
+    } else {
+      return;
     }
     this.lastHitIndex = hit;
   }

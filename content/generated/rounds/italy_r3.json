@@ -1,0 +1,24 @@
+{
+  "roundId": "italy_r3",
+  "themeId": "italy",
+  "themeDisplayName": "Italy",
+  "wordLengthBucket": 5,
+  "unsplashQuery": "italy tuscany venice canal",
+  "levelIds": [
+    "italy_r3_001",
+    "italy_r3_002",
+    "italy_r3_003",
+    "italy_r3_004",
+    "italy_r3_005",
+    "italy_r3_006",
+    "italy_r3_007",
+    "italy_r3_008",
+    "italy_r3_009",
+    "italy_r3_010"
+  ],
+  "backgroundImage": "images/italy.jpg",
+  "attribution": {
+    "name": "Damiano Baschiera",
+    "profileUrl": "https://unsplash.com/@damiano_baschiera?utm_source=wordwheel&utm_medium=referral"
+  }
+}

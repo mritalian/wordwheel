@@ -1,0 +1,8 @@
+node_modules/
+android/
+ios/
+content/candidates/
+content-tools/__pycache__/
+content-tools/generator/__pycache__/
+*.pyc
+.DS_Store

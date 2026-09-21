@@ -1,0 +1,303 @@
+{
+  "levelId": "amazon_rainforest_5_009",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r1",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 7,
+    "cols": 5
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "VENTS",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 0,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "VOTES",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 0
+        },
+        {
+          "row": 4,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "TONE",
+      "row": 0,
+      "col": 3,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 3
+        },
+        {
+          "row": 1,
+          "col": 3
+        },
+        {
+          "row": 2,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "SET",
+      "row": 3,
+      "col": 2,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 3
+        },
+        {
+          "row": 3,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SHOT",
+      "row": 3,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 4,
+          "col": 2
+        },
+        {
+          "row": 5,
+          "col": 2
+        },
+        {
+          "row": 6,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "TEN",
+      "row": 3,
+      "col": 4,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 3,
+          "col": 4
+        },
+        {
+          "row": 4,
+          "col": 4
+        },
+        {
+          "row": 5,
+          "col": 4
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w7",
+      "text": "VETO",
+      "row": 6,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 6,
+          "col": 0
+        },
+        {
+          "row": 6,
+          "col": 1
+        },
+        {
+          "row": 6,
+          "col": 2
+        },
+        {
+          "row": 6,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "E",
+      "count": 1
+    },
+    {
+      "letter": "H",
+      "count": 1
+    },
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    },
+    {
+      "letter": "T",
+      "count": 1
+    },
+    {
+      "letter": "V",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "ENS",
+    "EON",
+    "EONS",
+    "ETH",
+    "ETHNOS",
+    "ETHOS",
+    "HEN",
+    "HENS",
+    "HES",
+    "HEST",
+    "HET",
+    "HOE",
+    "HOES",
+    "HON",
+    "HONE",
+    "HONES",
+    "HONEST",
+    "HONS",
+    "HOSE",
+    "HOSEN",
+    "HOST",
+    "HOT",
+    "HOTS",
+    "HOVE",
+    "NEST",
+    "NET",
+    "NETS",
+    "NOES",
+    "NOH",
+    "NOS",
+    "NOSE",
+    "NOSH",
+    "NOT",
+    "NOTE",
+    "NOTES",
+    "NTH",
+    "OES",
+    "OHS",
+    "ONE",
+    "ONES",
+    "ONS",
+    "ONSET",
+    "OSE",
+    "OVEN",
+    "OVENS",
+    "SEN",
+    "SENT",
+    "SETON",
+    "SHE",
+    "SHOE",
+    "SHONE",
+    "SHOVE",
+    "SNOT",
+    "SON",
+    "SONE",
+    "SOT",
+    "SOTH",
+    "STENO",
+    "STONE",
+    "STOVE",
+    "TENS",
+    "THE",
+    "THEN",
+    "THO",
+    "THOSE",
+    "TOE",
+    "TOES",
+    "TON",
+    "TONES",
+    "TONS",
+    "TOSH",
+    "VENT",
+    "VEST",
+    "VET",
+    "VETS",
+    "VOE",
+    "VOTE"
+  ]
+}

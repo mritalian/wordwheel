@@ -1,0 +1,16 @@
+{
+  "name": "wordwheel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Wordscapes-style word game (web app + Capacitor Android wrapper)",
+  "scripts": {
+    "dev": "npx http-server web -p 8080 -c-1",
+    "sync": "npx cap sync android",
+    "android": "npx cap run android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.0.0",
+    "@capacitor/core": "^6.0.0",
+    "@capacitor/android": "^6.0.0"
+  }
+}

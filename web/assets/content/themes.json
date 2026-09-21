@@ -1,0 +1,10 @@
+{
+  "themes": [
+    {
+      "themeId": "amazon_rainforest",
+      "displayName": "Amazon Rainforest",
+      "unsplashQuery": "amazon rainforest canopy",
+      "colorHint": "#1f6b3a"
+    }
+  ]
+}

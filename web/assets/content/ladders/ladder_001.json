@@ -1,0 +1,7 @@
+{
+  "ladderId": "ladder_001",
+  "themeId": "amazon_rainforest",
+  "sequence": [
+    { "roundId": "amazon_rainforest_r1", "wordLengthBucket": 5 }
+  ]
+}

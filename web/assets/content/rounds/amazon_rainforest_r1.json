@@ -1,0 +1,19 @@
+{
+  "roundId": "amazon_rainforest_r1",
+  "themeId": "amazon_rainforest",
+  "themeDisplayName": "Amazon Rainforest",
+  "wordLengthBucket": 5,
+  "unsplashQuery": "amazon rainforest",
+  "levelIds": [
+    "amazon_rainforest_5_001",
+    "amazon_rainforest_5_002",
+    "amazon_rainforest_5_003",
+    "amazon_rainforest_5_004",
+    "amazon_rainforest_5_005",
+    "amazon_rainforest_5_006",
+    "amazon_rainforest_5_007",
+    "amazon_rainforest_5_008",
+    "amazon_rainforest_5_009",
+    "amazon_rainforest_5_010"
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "levelId": "amazon_rainforest_5_004",
+  "themeId": "amazon_rainforest",
+  "roundId": "amazon_rainforest_r1",
+  "wordLengthBucket": 5,
+  "grid": {
+    "rows": 7,
+    "cols": 4
+  },
+  "words": [
+    {
+      "wordId": "w1",
+      "text": "LORD",
+      "row": 0,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 0,
+          "col": 1
+        },
+        {
+          "row": 0,
+          "col": 2
+        },
+        {
+          "row": 0,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w2",
+      "text": "LONGS",
+      "row": 0,
+      "col": 0,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 0,
+          "col": 0
+        },
+        {
+          "row": 1,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 3,
+          "col": 0
+        },
+        {
+          "row": 4,
+          "col": 0
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w3",
+      "text": "NOR",
+      "row": 2,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 2,
+          "col": 0
+        },
+        {
+          "row": 2,
+          "col": 1
+        },
+        {
+          "row": 2,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w4",
+      "text": "RONDO",
+      "row": 2,
+      "col": 2,
+      "orientation": "vertical",
+      "cells": [
+        {
+          "row": 2,
+          "col": 2
+        },
+        {
+          "row": 3,
+          "col": 2
+        },
+        {
+          "row": 4,
+          "col": 2
+        },
+        {
+          "row": 5,
+          "col": 2
+        },
+        {
+          "row": 6,
+          "col": 2
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w5",
+      "text": "SON",
+      "row": 6,
+      "col": 1,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 6,
+          "col": 1
+        },
+        {
+          "row": 6,
+          "col": 2
+        },
+        {
+          "row": 6,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    },
+    {
+      "wordId": "w6",
+      "text": "SONG",
+      "row": 4,
+      "col": 0,
+      "orientation": "horizontal",
+      "cells": [
+        {
+          "row": 4,
+          "col": 0
+        },
+        {
+          "row": 4,
+          "col": 1
+        },
+        {
+          "row": 4,
+          "col": 2
+        },
+        {
+          "row": 4,
+          "col": 3
+        }
+      ],
+      "standalone": false
+    }
+  ],
+  "wheelLetters": [
+    {
+      "letter": "D",
+      "count": 1
+    },
+    {
+      "letter": "G",
+      "count": 1
+    },
+    {
+      "letter": "L",
+      "count": 1
+    },
+    {
+      "letter": "N",
+      "count": 1
+    },
+    {
+      "letter": "O",
+      "count": 2
+    },
+    {
+      "letter": "R",
+      "count": 1
+    },
+    {
+      "letter": "S",
+      "count": 1
+    }
+  ],
+  "bonusWords": [
+    "DOG",
+    "DOGS",
+    "DOL",
+    "DOLOR",
+    "DOLS",
+    "DON",
+    "DONG",
+    "DONGS",
+    "DONOR",
+    "DONORS",
+    "DONS",
+    "DOOR",
+    "DOORS",
+    "DOR",
+    "DORS",
+    "DOS",
+    "DRONGO",
+    "DROOL",
+    "DROOLS",
+    "GOD",
+    "GODS",
+    "GODSON",
+    "GOLD",
+    "GOLDS",
+    "GOO",
+    "GOOD",
+    "GOODS",
+    "GOON",
+    "GOONS",
+    "GOOS",
+    "GOR",
+    "LOG",
+    "LOGO",
+    "LOGOS",
+    "LOGS",
+    "LONG",
+    "LOO",
+    "LOON",
+    "LOONS",
+    "LOOS",
+    "LORDS",
+    "LORN",
+    "NOD",
+    "NODS",
+    "NOG",
+    "NOLO",
+    "NOO",
+    "NOS",
+    "ODOR",
+    "ODORS",
+    "ODS",
+    "OLD",
+    "OLDS",
+    "ONS",
+    "ORDO",
+    "ORDOS",
+    "ORS",
+    "ROD",
+    "RODS",
+    "ROOD",
+    "SLOG",
+    "SNOG",
+    "SNOOD",
+    "SOD",
+    "SOL",
+    "SOLD",
+    "SOLDO",
+    "SOLO",
+    "SOLON",
+    "SOON",
+    "SORN"
+  ]
+}

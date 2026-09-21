@@ -1,0 +1,14 @@
+{
+  "themes": [
+    { "themeId": "amazon_rainforest", "displayName": "Amazon Rainforest", "unsplashQuery": "amazon rainforest canopy" },
+    { "themeId": "flowers", "displayName": "Flowers", "unsplashQuery": "flower garden macro colorful" },
+    { "themeId": "italy", "displayName": "Italy", "unsplashQuery": "italy tuscany venice canal" },
+    { "themeId": "ocean_reef", "displayName": "Ocean Reef", "unsplashQuery": "coral reef underwater tropical fish" },
+    { "themeId": "desert_dunes", "displayName": "Desert Dunes", "unsplashQuery": "sahara desert dunes sunset" },
+    { "themeId": "japanese_garden", "displayName": "Japanese Garden", "unsplashQuery": "japanese garden zen bamboo" },
+    { "themeId": "mountain_peaks", "displayName": "Mountain Peaks", "unsplashQuery": "snowy mountain peak alps" },
+    { "themeId": "autumn_forest", "displayName": "Autumn Forest", "unsplashQuery": "autumn forest fall foliage" },
+    { "themeId": "beach_paradise", "displayName": "Beach Paradise", "unsplashQuery": "tropical beach palm trees turquoise" },
+    { "themeId": "farmers_market", "displayName": "Farmers Market", "unsplashQuery": "farmers market fresh produce" }
+  ]
+}

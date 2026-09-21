@@ -1,8 +1,11 @@
+import { Haptics } from "../audio/Haptics.js";
+
 export class WheelInputHandler {
-  constructor(canvas, wheelRenderer, onTraceComplete) {
+  constructor(canvas, wheelRenderer, onTraceComplete, soundEffects = null) {
     this.canvas = canvas;
     this.wheelRenderer = wheelRenderer;
     this.onTraceComplete = onTraceComplete;
+    this.soundEffects = soundEffects;
 
     this.tracedIndices = [];
     this.livePointerPos = null;
@@ -59,6 +62,8 @@ export class WheelInputHandler {
     this.lastHitIndex = hit;
     this.isActive = true;
     this.livePointerPos = pos;
+    this.soundEffects?.letterSelected(0);
+    Haptics.tap();
   }
 
   _onPointerMove(e) {
@@ -79,6 +84,8 @@ export class WheelInputHandler {
       // separate, independently-usable nodes; revisiting the same circle
       // is not).
       this.tracedIndices.push(hit);
+      this.soundEffects?.letterSelected(this.tracedIndices.length - 1);
+      Haptics.tap();
     } else {
       return;
     }

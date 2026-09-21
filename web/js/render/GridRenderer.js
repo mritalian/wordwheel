@@ -61,6 +61,17 @@ export class GridRenderer {
       ctx.fillText(cell.letter ?? this._letterFor(cell), x + cellSize / 2, y + cellSize / 2 + 1);
       ctx.restore();
     }
+
+    if (isRevealed) {
+      const shimmer = this.animationManager.shimmerIntensity(gameState.cellKey(cell.row, cell.col));
+      if (shimmer > 0) {
+        ctx.save();
+        this._roundRect(ctx, x + gap / 2, y + gap / 2, cellSize - gap, cellSize - gap, radius);
+        ctx.fillStyle = `rgba(255,255,255,${shimmer * 0.65})`;
+        ctx.fill();
+        ctx.restore();
+      }
+    }
   }
 
   _letterFor(cell) {

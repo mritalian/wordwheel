@@ -9,14 +9,14 @@ export class WordValidator {
     const target = this.level.wordMap.get(word);
     if (target) {
       if (gameState.foundWordIds.has(target.wordId)) {
-        return { type: "already-found", word };
+        return { type: "already-found", subtype: "target", word, target };
       }
       return { type: "target", word: target };
     }
 
     if (this.level.bonusWordSet.has(word)) {
       if (gameState.foundBonusWords.has(word)) {
-        return { type: "already-found", word };
+        return { type: "already-found", subtype: "bonus", word };
       }
       return { type: "bonus", word };
     }

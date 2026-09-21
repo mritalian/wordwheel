@@ -54,4 +54,25 @@ export class AnimationManager {
     };
     this.addTween(tween);
   }
+
+  // A word the player already solved got traced again - briefly flash its
+  // cells so it's obvious which word they just re-found.
+  shimmerCells(cellKeys) {
+    const tween = {
+      kind: "shimmer",
+      cellKeys: new Set(cellKeys),
+      duration: 500,
+      lastT: 0,
+      onUpdate: (t) => {
+        tween.lastT = t;
+      },
+    };
+    this.addTween(tween);
+  }
+
+  shimmerIntensity(cellKey) {
+    const tween = this.tweens.find((t) => t.kind === "shimmer" && t.cellKeys.has(cellKey));
+    if (!tween) return 0;
+    return Math.sin(tween.lastT * Math.PI);
+  }
 }
